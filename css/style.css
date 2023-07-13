@@ -71,6 +71,14 @@ h3 {
     .mountain-image {
         width: 100%;
     }
+
+    .top-cloud{
+        display: none;
+    }
+
+    .bottom-cloud{
+        display: none;
+    }
 }
 
 /* end top container */
@@ -117,7 +125,7 @@ h3 {
 
 .profile p {
     margin: 0 auto 70px;
-    width: 30%;
+    width: 50%;
     line-height: 2;
 }
 
