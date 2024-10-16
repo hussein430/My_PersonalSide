@@ -419,8 +419,9 @@ a {
 }
 
 .bottom-container a {
+  display: inline-block;
   color: #11999e;
-  padding: 1%;
+  margin: 10px;
   text-decoration: none;
   font-weight: bold;
   transition: var(--main-transition);
