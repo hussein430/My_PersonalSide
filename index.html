@@ -21,132 +21,161 @@
   </head>
 
   <body>
-    <!-- top Section -->
-    <div class="top-container">
-      <img
-        src="CSS - My Site Images/cloud.png"
-        alt="cloud-image"
-        class="top-cloud"
-      />
-      <h1>I'm Hussein.</h1>
-      <h2>a <span class="pro">Pro</span>grammer.</h2>
-      <img
-        src="CSS - My Site Images/mountain.png"
-        alt="mountain-image"
-        class="mountain-image"
-      />
-      <img
-        src="CSS - My Site Images/cloud.png"
-        alt="cloud-image"
-        class="bottom-cloud"
-      />
-    </div>
-    <!-- middle container Section -->
+    <!-- nav section -->
+    <nav class="nav" id="Nav">
+      <div class="container">
+        <a href="#" class="logo">Hussain</a>
+        <ul class="main-nav">
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#footer">About Me</a></li>
+        </ul>
+      </div>
+    </nav>
 
-    <div class="middle-container">
-      <div class="profile">
+    <!-- Header Section -->
+    <header class="header" id="header">
+      <div class="container">
+        <div class="text">
+          <h1>Welcome, To Hussain Site</h1>
+          <p>
+            Student at
+            <a href="https://uotechnology.edu.iq/index.php/ar/" target="_blank"
+              >University of Technology</a
+            >
+            and , I am a <strong>Web Developer </strong>, I like coffee and i ❤️
+            coding.
+          </p>
+        </div>
+        <div class="image">
+          <img src="CSS - My Site Images/Hussain.webp" alt="landing-image" />
+        </div>
+      </div>
+      <a href="#articles" class="go-down">
+        <i class="fas fa-angle-double-down fa-2x" aria-hidden="true"></i>
+      </a>
+    </header>
+    <!-- Skills section -->
+    <section class="skills" id="Skills">
+      <h2>My Skills</h2>
+      <div class="skill-row">
         <img
-          src="CSS - My Site Images/hussein.png"
-          alt="hussein-photo"
-          class="hussein-photo"
+          class="code-image"
+          src="https://media.giphy.com/media/8m4gPv1UFz1jmiCtKd/giphy.gif"
+          alt="code-image"
         />
-        <h2>Hello.</h2>
-        <p class="intro">
-          Student at
-          <a href="https://uotechnology.edu.iq/index.php/ar/" target="_blank"
-            >University of Technology</a
-          >
-          and , I am a <strong>Web Developer </strong>, I like coffee and i ❤️
-          coding.
-        </p>
-      </div>
-      <hr />
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img
-            class="code-image"
-            src="https://media.giphy.com/media/8m4gPv1UFz1jmiCtKd/giphy.gif"
-            alt="code-image"
-          />
-          <h3>Design & Development</h3>
-          <p>
-            I started learning to code when I was 20 years old because I wanted
-            to make my own apps, I have gained experience in C++ and Python and
-            Web Development
-          </p>
-        </div>
-        <div class="skill-row">
-          <img
-            class="chess-image"
-            src="https://media.giphy.com/media/lSn9axCWI6L9fSaezm/giphy.gif"
-            alt="chess-image"
-          />
-          <h3>Video Games</h3>
-          <p>
-            I enjoy strategy games that require planning and decision-making, as
-            they present a fascinating challenge to me.
-          </p>
-        </div>
-      </div>
-      <hr />
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>If you want watch my projects.</h3>
+        <h3>Design & Development</h3>
         <p>
-          some of the projects I did while I was studying
+          I started learning to code when I was 20 years old because I wanted to
+          make my own apps, I have gained experience in C++ and Python and Web
+          Development
         </p>
-        <a class="btn" href="mailto:hussen.alaa1222@gmail.com">CONTACT ME</a>
       </div>
-    </div>
-
-    <!-- My Projects -->
-    <section id="projects">
-      <h2>My Projects</h2>
-      <div class="project-list">
-          <div class="project">
-              <h3>Future</h3>
-              <img src="CSS - My Site Images/ProjectsImg/1.png" alt="Project1" />
-              <p>Website for future company</p>
-              <a href="https://hussein430.github.io/FutureWeb/" target="_blank">Show the Project</a>
-          </div>
-  
-          <div class="project">
-              <h3>Leon</h3>
-              <img src="CSS - My Site Images/ProjectsImg/2.png" alt="Project2" />
-              <p>I made this project when I learned HTML & CSS</p>
-              <a href="https://hussein430.github.io/Elzero_Template1/" target="_blank">Show the Project</a>
-          </div>
-  
-          <div class="project">
-              <h3>Kasper</h3>
-              <img src="CSS - My Site Images/ProjectsImg/3.png" alt="Project3" />
-              <p>I made this project when I learned HTML & CSS</p>
-              <a href="https://hussein430.github.io/Elzero-Template2/" target="_blank">Show the Project</a>
-          </div>
-  
-          <div class="project">
-              <h3>Udemy</h3>
-              <img src="CSS - My Site Images/ProjectsImg/4.png" alt="Project4" />
-              <p>The main page of udemy website</p>
-              <a href="https://hussein430.github.io/UdemyWeb/" target="_blank">Show the Project</a>
-          </div>
-  
-          <div class="project">
-              <h3>Image Editor</h3>
-              <img src="CSS - My Site Images/ProjectsImg/5.png" alt="Project5" />
-              <p>Simple website to edit the images</p>
-              <a href="https://hussein430.github.io/Image_Editor/" target="_blank">Show the Project</a>
-          </div>
-  
-
-
+      <div class="skill-row">
+        <img
+          class="chess-image"
+          src="https://media.giphy.com/media/lSn9axCWI6L9fSaezm/giphy.gif"
+          alt="chess-image"
+        />
+        <h3>Video Games</h3>
+        <p>
+          I enjoy strategy games that require planning and decision-making, as
+          they present a fascinating challenge to me.
+        </p>
       </div>
-  </section>
-  
+    </section>
+
+    <section class="spikes"></section>
+
+    <!-- My Project -->
+    <section id="project" class="project">
+      <h2 class="project-title">My Projects</h2>
+      <div class="container">
+        <div class="box">
+          <h3>Future</h3>
+          <div class="image">
+            <img src="CSS - My Site Images/ProjectsImg/1.png" alt="Project1" />
+          </div>
+          <p>Website for future company</p>
+          <a href="https://hussein430.github.io/FutureWeb/" target="_blank"
+            >Show the Project</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>Leon</h3>
+          <div class="image">
+            <img src="CSS - My Site Images/ProjectsImg/2.png" alt="Project2" />
+          </div>
+          <p>I made this project when I learned HTML & CSS</p>
+          <a
+            href="https://hussein430.github.io/Template1/"
+            target="_blank"
+            >Show the Project</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>Kasper</h3>
+          <div class="image">
+            <img src="CSS - My Site Images/ProjectsImg/3.png" alt="Project3" />
+          </div>
+          <p>I made this project when I learned HTML & CSS</p>
+          <a
+            href="https://hussein430.github.io/Template2/"
+            target="_blank"
+            >Show the Project</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>Udemy</h3>
+          <div class="image">
+            <img src="CSS - My Site Images/ProjectsImg/4.png" alt="Project4" />
+          </div>
+          <p>The main page of udemy website</p>
+          <a href="https://hussein430.github.io/UdemyWeb/" target="_blank"
+            >Show the Project</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>Image Editor</h3>
+          <div class="image">
+            <img src="CSS - My Site Images/ProjectsImg/5.png" alt="Project5" />
+          </div>
+          <p>Simple website to edit the images</p>
+          <a href="https://hussein430.github.io/Image_Editor/" target="_blank"
+            >Show the Project</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>Hussain</h3>
+          <div class="image">
+            <img src="CSS - My Site Images/ProjectsImg/6.png" alt="Project5" />
+          </div>
+          <p>I made this project to practice on HTML & CSS</p>
+          <a href="https://hussein430.github.io/Template3/" target="_blank"
+            >Show the Project</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>Template</h3>
+          <div class="image">
+            <img src="CSS - My Site Images/ProjectsImg/7.png" alt="Project5" />
+          </div>
+          <p>I made this project to practice on HTML & CSS</p>
+          <a href="https://hussein430.github.io/Template1.0/" target="_blank"
+            >Show the Project</a
+          >
+        </div>
+      </div>
+    </section>
 
     <!-- bottom container -->
-    <div class="bottom-container">
+    <div class="bottom-container" id="footer">
       <a
         class="footer-link"
         href="https://www.facebook.com/profile.php?id=100081861495417"
@@ -165,7 +194,19 @@
         target="_blank"
         >Linkedin</a
       >
-      <p>© Hussein Alaa.</p>
+      <a
+        class="footer-link"
+        href="https://github.com/hussein430"
+        target="_blank"
+        >Github</a
+      >
+      <a
+        class="footer-link"
+        href="https://codepen.io/hussein430"
+        target="_blank"
+        >CodePen</a
+      >
+      <p>© Hussain Alaa.</p>
     </div>
   </body>
 </html>
