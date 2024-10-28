@@ -372,6 +372,11 @@ a {
   padding: 10px 0;
 }
 
+.project .box p{
+  line-height: 1.8;
+  margin-top: 10px;
+}
+
 .project .box a {
   transition: var(--main-transition);
 }
